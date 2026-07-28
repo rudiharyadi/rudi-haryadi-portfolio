@@ -176,3 +176,13 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px
   .contact-card { padding: 28px; }
   .footer-content { flex-direction: column; justify-content: center; gap: 4px; text-align: center; }
 }
+
+/* Detailed experience lists */
+.experience-list {
+  margin-top: 1rem;
+}
+
+.timeline-content .experience-list li {
+  margin-bottom: 0.55rem;
+  line-height: 1.65;
+}
