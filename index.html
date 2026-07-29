@@ -390,7 +390,7 @@
       <div class="container">
         <div class="section-heading center reveal">
           <p class="eyebrow">My Review Workflow</p>
-          <h2>How I approach an AI evaluation task.</h2>
+          <h2>My 10-step approach to accurate and consistent AI evaluation.</h2>
         </div>
         <div class="workflow-grid">
           <div class="workflow-step reveal">
@@ -406,35 +406,101 @@
           </div>
           <div class="workflow-step reveal delay-1">
             <span>02</span>
-            <h3>Inspect evidence</h3>
-            <p>Examine all available visual and textual evidence carefully without adding information that is not supported.</p>
+            <h3>Understand the user intent</h3>
+            <p>Determine what the prompt is truly asking and which requirements must be satisfied in the final response.</p>
             <ul>
-              <li>Compare the prompt, image, reference material, and model response.</li>
-              <li>Check names, numbers, objects, labels, locations, relationships, and visible details.</li>
-              <li>Look for contradictions, omissions, ambiguity, or insufficient evidence.</li>
-              <li>Separate observable facts from assumptions and personal interpretation.</li>
+              <li>Separate explicit instructions from reasonable implicit expectations.</li>
+              <li>Identify constraints involving language, tone, length, format, or audience.</li>
+              <li>Determine the main question and avoid being distracted by irrelevant details.</li>
+              <li>Note any conflicting or ambiguous instructions that require escalation.</li>
             </ul>
           </div>
           <div class="workflow-step reveal delay-2">
             <span>03</span>
-            <h3>Produce answer</h3>
-            <p>Create a clear, concise, and evidence-based answer that follows the requested format exactly.</p>
+            <h3>Inspect the source material</h3>
+            <p>Review every available image, prompt, document, reference answer, and model response before making a judgment.</p>
             <ul>
-              <li>Answer only what the task asks and remain relevant to the evidence.</li>
-              <li>Use accurate terminology and simple language that is easy to understand.</li>
-              <li>Apply the correct rating, label, explanation, or golden-answer format.</li>
-              <li>Flag the task when the evidence is unclear or cannot support a reliable answer.</li>
+              <li>Check whether all required materials are available and readable.</li>
+              <li>Review visible text, objects, labels, numbers, and relationships carefully.</li>
+              <li>Identify cropped, blurred, corrupted, duplicated, or incomplete content.</li>
+              <li>Confirm that the source material is relevant to the question.</li>
             </ul>
           </div>
           <div class="workflow-step reveal">
             <span>04</span>
-            <h3>Run QA check</h3>
-            <p>Perform a final quality review before submission to reduce avoidable errors and maintain consistency.</p>
+            <h3>Collect relevant evidence</h3>
+            <p>Extract only the facts needed to answer the task and keep observations separate from assumptions.</p>
             <ul>
-              <li>Recheck factual accuracy, completeness, relevance, and instruction compliance.</li>
+              <li>Record names, dates, values, locations, actions, and visible attributes.</li>
+              <li>Match each conclusion to specific evidence in the source material.</li>
+              <li>Ignore information that does not affect the requested judgment.</li>
+              <li>Avoid guessing when evidence is missing or uncertain.</li>
+            </ul>
+          </div>
+          <div class="workflow-step reveal delay-1">
+            <span>05</span>
+            <h3>Check factual accuracy</h3>
+            <p>Verify whether every important claim is supported, correct, and consistent with the available evidence.</p>
+            <ul>
+              <li>Look for incorrect names, dates, numbers, descriptions, or relationships.</li>
+              <li>Detect unsupported claims, fabricated details, and misleading statements.</li>
+              <li>Compare the answer against references when references are provided.</li>
+              <li>Distinguish a minor imprecision from a material factual error.</li>
+            </ul>
+          </div>
+          <div class="workflow-step reveal delay-2">
+            <span>06</span>
+            <h3>Evaluate instruction compliance</h3>
+            <p>Confirm that the response follows all explicit and implicit requirements in the prompt and project guideline.</p>
+            <ul>
+              <li>Verify requested format, sentence count, language, tone, and structure.</li>
+              <li>Check whether all parts of a multi-part request were completed.</li>
+              <li>Identify unnecessary content that reduces relevance or clarity.</li>
+              <li>Apply the correct label when only part of the instruction was followed.</li>
+            </ul>
+          </div>
+          <div class="workflow-step reveal">
+            <span>07</span>
+            <h3>Assess quality and consistency</h3>
+            <p>Review the response for clarity, completeness, coherence, usefulness, and consistency with similar tasks.</p>
+            <ul>
+              <li>Check that the answer is understandable to the intended reader.</li>
+              <li>Identify contradictions, repetition, missing steps, or unclear wording.</li>
+              <li>Apply the same decision standard across the entire task batch.</li>
+              <li>Compare borderline cases with approved examples in the rubric.</li>
+            </ul>
+          </div>
+          <div class="workflow-step reveal delay-1">
+            <span>08</span>
+            <h3>Produce the answer</h3>
+            <p>Create a clear, concise, and evidence-based result using the exact output format required by the project.</p>
+            <ul>
+              <li>Answer only what the task asks and remain relevant to the evidence.</li>
+              <li>Use accurate terminology and simple, professional language.</li>
+              <li>Apply the correct rating, label, explanation, or golden-answer format.</li>
+              <li>Keep the explanation specific enough to support the decision.</li>
+            </ul>
+          </div>
+          <div class="workflow-step reveal delay-2">
+            <span>09</span>
+            <h3>Flag and escalate issues</h3>
+            <p>Handle tasks responsibly when the evidence, instructions, or source material cannot support a reliable decision.</p>
+            <ul>
+              <li>Flag unclear, corrupted, unsafe, contradictory, or insufficient data.</li>
+              <li>Explain the reason for escalation using objective observations.</li>
+              <li>Avoid forcing a rating when the rubric requires an exception.</li>
+              <li>Protect confidential or sensitive information during documentation.</li>
+            </ul>
+          </div>
+          <div class="workflow-step reveal">
+            <span>10</span>
+            <h3>Run the final QA check</h3>
+            <p>Perform a complete review before submission to reduce avoidable errors and maintain dependable quality.</p>
+            <ul>
+              <li>Recheck factual accuracy, completeness, relevance, and compliance.</li>
               <li>Verify spelling, grammar, formatting, labels, and required fields.</li>
-              <li>Confirm that no unsupported claim or confidential information was added.</li>
-              <li>Ensure the final answer is consistent with the rubric and ready for audit.</li>
+              <li>Confirm that no unsupported assumption or confidential detail was added.</li>
+              <li>Ensure the final decision is consistent, traceable, and audit-ready.</li>
             </ul>
           </div>
         </div>
