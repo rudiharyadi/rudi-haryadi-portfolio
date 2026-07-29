@@ -209,3 +209,15 @@ footer { border-top: 1px solid var(--line); padding: 24px 0; color: var(--muted)
 .workflow-step li::marker {
   color: var(--primary);
 }
+
+/* Single-column hero after removing the candidate-profile.json card */
+.hero-grid-single {
+  grid-template-columns: minmax(0, 900px);
+  justify-content: center;
+}
+.hero-grid-single .hero-copy {
+  max-width: 900px;
+}
+.hero-text-secondary {
+  margin-top: 16px;
+}
