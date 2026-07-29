@@ -112,9 +112,20 @@ button, input, textarea, select { font: inherit; }
 .section-note {
   color: var(--muted);
   max-width: 760px;
-  margin: 24px auto 72px;
+  margin: 0 auto;
+  padding-top: 46px;
+  padding-bottom: 72px;
   text-align: center;
   line-height: 1.75;
+}
+
+/* Keep the project description clearly separated from the large heading. */
+#projects .section-heading {
+  margin-bottom: 0;
+}
+
+#projects .section-heading h2 {
+  padding-bottom: 0;
 }
 .about-copy { color: var(--muted); font-size: 1.04rem; }
 .about-copy p:first-child { margin-top: 0; }
