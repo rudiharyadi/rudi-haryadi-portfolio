@@ -186,3 +186,19 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px
   margin-bottom: 0.55rem;
   line-height: 1.65;
 }
+
+
+/* Detailed workflow lists */
+.detail-list {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.55rem;
+}
+.detail-list li {
+  line-height: 1.65;
+  color: var(--muted, #a8b2c1);
+}
+.workflow-step p {
+  line-height: 1.75;
+}

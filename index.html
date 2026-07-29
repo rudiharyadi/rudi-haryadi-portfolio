@@ -195,7 +195,7 @@
         <div class="section-heading reveal">
           <p class="eyebrow">Selected Portfolio Projects</p>
           <h2>Detailed work samples that demonstrate practical IT and AI-review capabilities.</h2>
-          <p class="section-note">Each project highlights the problem, review process, tools used, and recruiter-relevant outcomes.</p>
+          <p class="section-note">Each project highlights the problem, review process, tools used, and practical deliverables.</p>
         </div>
         <div class="projects-grid">
           <article class="project-card featured reveal">
@@ -393,10 +393,46 @@
           <h2>How I approach an AI evaluation task.</h2>
         </div>
         <div class="workflow-grid">
-          <div class="workflow-step reveal"><span>01</span><h3>Read the rubric</h3><p>Understand scope, answer format, edge cases, and escalation rules.</p></div>
-          <div class="workflow-step reveal delay-1"><span>02</span><h3>Inspect evidence</h3><p>Review every relevant visual or textual detail without unsupported assumptions.</p></div>
-          <div class="workflow-step reveal delay-2"><span>03</span><h3>Produce answer</h3><p>Write a clear, concise, and evidence-based golden response.</p></div>
-          <div class="workflow-step reveal"><span>04</span><h3>Run QA check</h3><p>Verify accuracy, consistency, grammar, and guideline compliance.</p></div>
+          <div class="workflow-step reveal">
+            <span>01</span>
+            <h3>Read the rubric</h3>
+            <p>I begin by reading the complete task instructions before reviewing the data. I identify the evaluation criteria, required answer format, scoring labels, acceptable evidence, edge cases, and escalation rules. I also note restrictions such as answering only from visible information, avoiding assumptions, and following exact wording or length requirements.</p>
+            <ul class="detail-list">
+              <li>Identify the task objective and expected output.</li>
+              <li>Understand pass, minor issue, and major issue criteria.</li>
+              <li>Record ambiguity, exceptions, and escalation conditions.</li>
+            </ul>
+          </div>
+          <div class="workflow-step reveal delay-1">
+            <span>02</span>
+            <h3>Inspect evidence</h3>
+            <p>I carefully examine the provided image, screenshot, prompt, reference answer, or model response. I separate facts directly supported by the evidence from assumptions. For visual tasks, I check text, labels, objects, filenames, interface elements, image quality, cropping, and whether the evidence is sufficient to answer confidently.</p>
+            <ul class="detail-list">
+              <li>Compare the prompt with all visible or textual evidence.</li>
+              <li>Check for blur, missing content, contradictions, or corruption.</li>
+              <li>Flag the task when the evidence is insufficient or unclear.</li>
+            </ul>
+          </div>
+          <div class="workflow-step reveal delay-2">
+            <span>03</span>
+            <h3>Produce answer</h3>
+            <p>I create a direct, accurate, and evidence-based response that follows the requested format. When evaluating an AI response, I assign the appropriate quality label and explain the issue clearly. When a golden answer is required, I include only information supported by the source and avoid unnecessary interpretation.</p>
+            <ul class="detail-list">
+              <li>Write a concise answer using the required language and structure.</li>
+              <li>Apply consistent labels and severity levels.</li>
+              <li>Add reviewer notes that explain the decision when required.</li>
+            </ul>
+          </div>
+          <div class="workflow-step reveal">
+            <span>04</span>
+            <h3>Run QA check</h3>
+            <p>Before submission, I perform a second review of the task and my answer. I confirm that every statement is supported, the selected label matches the rubric, and the response is complete, consistent, grammatically clear, and correctly formatted. I also check that no required field, issue flag, or reviewer note has been missed.</p>
+            <ul class="detail-list">
+              <li>Recheck accuracy, completeness, and guideline compliance.</li>
+              <li>Verify spelling, grammar, formatting, and consistency.</li>
+              <li>Confirm that unclear or invalid tasks are properly flagged.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>

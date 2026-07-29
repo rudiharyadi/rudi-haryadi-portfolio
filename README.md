@@ -41,3 +41,10 @@ You can connect a custom domain through GitHub Pages settings after purchasing a
 - Add screenshots of annotation or quality-review samples with confidential information removed.
 - Add LinkedIn and GitHub profile links.
 - Add a professional headshot only if you are comfortable doing so.
+
+
+## Latest update
+
+- Removed the phrase “and recruiter-relevant outcomes”.
+- Expanded the four-step AI review workflow: Read the rubric, Inspect evidence, Produce answer, and Run QA check.
+- Added practical checklist details for each review stage.
