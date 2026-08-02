@@ -52,3 +52,5 @@ You can connect a custom domain through GitHub Pages settings after purchasing a
 - Replaced the downloadable resume with the latest `Rudi_Haryadi_Resume.pdf`.
 - Simplified the Linux Terminal Server Project section to focus on implementation, Linux administration, and competencies acquired.
 - Removed the technology tags from the Linux Terminal Server Project certification section.
+- Removed the technology tags from the Multimedia Development certification section.
+- Removed technology tags from all eight project cards.
