@@ -390,3 +390,56 @@ footer { border-top: 1px solid var(--line); padding: 24px 0; color: var(--muted)
     width: 100%;
   }
 }
+
+
+/* Detailed certification content */
+.certification-card-featured {
+  grid-column: 1 / -1;
+}
+
+.certification-content {
+  margin-top: 18px;
+}
+
+.certification-content h4 {
+  margin: 24px 0 10px;
+  color: var(--text);
+  font-size: 1.03rem;
+}
+
+.certification-content h4:first-child {
+  margin-top: 0;
+}
+
+.certification-content > p {
+  color: var(--muted);
+  margin: 14px 0;
+}
+
+.certification-content .capability-list {
+  margin: 0;
+}
+
+.certification-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 10px;
+}
+
+.certification-columns > div {
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(255,255,255,.025);
+}
+
+.certification-columns h4 {
+  margin-top: 0;
+}
+
+@media (max-width: 760px) {
+  .certification-columns {
+    grid-template-columns: 1fr;
+  }
+}

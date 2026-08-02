@@ -42,3 +42,11 @@ You can connect a custom domain through GitHub Pages settings after purchasing a
 - Removed the phrase “and recruiter-relevant outcomes”.
 - Expanded the four-step AI review workflow: Read the rubric, Inspect evidence, Produce answer, and Run QA check.
 - Added practical checklist details for each review stage.
+
+## August 2026 content update
+
+
+- Expanded the Education section with detailed Computer Engineering competencies.
+- Expanded the Linux Terminal Server Project section with architecture, workflow, components, advantages, disadvantages, and acquired competencies.
+- Expanded the Multimedia Development section with graphic design, video editing, animation, UI/UX, and digital-content skills.
+- Replaced the downloadable resume with the latest `Rudi_Haryadi_Resume.pdf`.
