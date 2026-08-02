@@ -6,29 +6,23 @@ A responsive personal portfolio website built with HTML, CSS, and JavaScript. It
 
 - `index.html` — website structure and content
 - `styles.css` — visual design and responsive layout
-- `script.js` — mobile navigation, scroll effects, and animations
+- `script.js` — mobile navigation, active-section highlighting, scroll effects, and animations
+- `Rudi_Haryadi_Resume.pdf` — downloadable English resume
 
-## Before Publishing
+## Current Portfolio Features
 
-Open `index.html` and replace:
+- Recruiter-focused navigation: About, Skills, Projects, Experience, Certifications, Resume, and Contact
+- Downloadable English resume
+- Responsive mobile navigation
+- Project and experience sections
+- Certifications from Universitas Gunadarma
+- Live deployment through Vercel
 
-- `your-email@example.com` with your real email address
-- LinkedIn URL with your profile URL
-- GitHub URL with your GitHub profile URL
-- Project `href="#"` links with real case-study or repository links
-- Company, education, and experience text if needed
+## Deploy with Vercel
 
-## Publish Free with GitHub Pages
+The GitHub repository is connected to Vercel. Commit and push updates to the `main` branch, and Vercel will automatically deploy the latest version.
 
-1. Sign in to GitHub.
-2. Create a new public repository, for example: `rudi-haryadi-portfolio`.
-3. Upload `index.html`, `styles.css`, and `script.js` to the repository root.
-4. Open **Settings** → **Pages**.
-5. Under **Build and deployment**, select **Deploy from a branch**.
-6. Select branch **main** and folder **/root**.
-7. Click **Save**.
-8. Your website will be available at:
-   `https://YOUR-GITHUB-USERNAME.github.io/rudi-haryadi-portfolio/`
+Live site: `https://rudi-haryadi-portfolio.vercel.app/`
 
 ## Optional Custom Domain
 

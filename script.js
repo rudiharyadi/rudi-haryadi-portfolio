@@ -56,3 +56,22 @@ function updateActiveNavigation() {
 
 window.addEventListener("scroll", updateActiveNavigation, { passive: true });
 updateActiveNavigation();
+
+
+// Close the mobile navigation with Escape and reset it after resizing to desktop.
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && menuButton && navLinks) {
+    navLinks.classList.remove("open");
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.textContent = "☰";
+    menuButton.focus();
+  }
+});
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 760 && menuButton && navLinks) {
+    navLinks.classList.remove("open");
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.textContent = "☰";
+  }
+});

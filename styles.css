@@ -62,8 +62,8 @@ button, input, textarea, select { font: inherit; }
   box-shadow: 0 8px 28px rgba(84,210,255,.24);
 }
 .brand-text { letter-spacing: -.02em; }
-.nav-links { display: flex; align-items: center; gap: 24px; }
-.nav-links a { color: var(--muted); font-weight: 600; font-size: .94rem; transition: .2s ease; }
+.nav-links { display: flex; align-items: center; gap: 18px; }
+.nav-links a { color: var(--muted); font-weight: 600; font-size: .9rem; transition: .2s ease; white-space: nowrap; }
 .nav-links a:hover, .nav-links a.active { color: var(--text); }
 .nav-cta { padding: 10px 16px; border: 1px solid var(--line); border-radius: 12px; }
 .menu-toggle { display: none; border: 1px solid var(--line); background: transparent; color: var(--text); border-radius: 11px; padding: 8px 11px; cursor: pointer; }
@@ -285,4 +285,108 @@ footer { border-top: 1px solid var(--line); padding: 24px 0; color: var(--muted)
 }
 .hero-text-secondary {
   margin-top: 16px;
+}
+
+
+/* Recruiter-focused certifications and resume section */
+.certifications-section {
+  background: rgba(255, 255, 255, 0.015);
+  border-bottom: 1px solid var(--line);
+}
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.certification-card {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 20px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--panel);
+  box-shadow: 0 18px 50px rgba(0,0,0,.14);
+}
+
+.certification-icon {
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  background: rgba(84,210,255,.1);
+  color: var(--primary);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: .82rem;
+  font-weight: 800;
+}
+
+.certification-card h3 {
+  margin: 4px 0 10px;
+  line-height: 1.25;
+}
+
+.certification-card > div:last-child > p:not(.certification-meta) {
+  color: var(--muted);
+  margin: 0;
+}
+
+.certification-meta {
+  margin: 0;
+  color: var(--primary);
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.resume-panel {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 28px;
+  align-items: center;
+  margin-top: 24px;
+  padding: 30px;
+  border: 1px solid rgba(84,210,255,.25);
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(84,210,255,.09), rgba(139,124,255,.08));
+}
+
+.resume-panel h3 {
+  margin: 0 0 8px;
+  font-size: 1.45rem;
+}
+
+.resume-panel p:not(.eyebrow) {
+  margin: 0;
+  color: var(--muted);
+}
+
+.resume-link {
+  color: var(--primary) !important;
+}
+
+@media (max-width: 1100px) and (min-width: 761px) {
+  .nav-links { gap: 12px; }
+  .nav-links a { font-size: .82rem; }
+  .nav-cta { padding: 8px 12px; }
+}
+
+@media (max-width: 760px) {
+  .certifications-grid,
+  .resume-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .certification-card {
+    grid-template-columns: 1fr;
+    padding: 22px;
+  }
+
+  .resume-panel .btn {
+    width: 100%;
+  }
 }
